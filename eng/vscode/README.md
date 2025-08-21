@@ -14,7 +14,7 @@ Easily bring the power of Model Context Protocol (MCP) to your Azure projects in
 
 ## Overview
 
-**Azure MCP Server** adds smart, context-aware AI tools right inside VS Code to help you work more efficiently with Azure resources. The Azure MCP Server supercharges your agents with Azure context across **28 different Azure services**.
+**Azure MCP Server** adds smart, context-aware AI tools right inside VS Code to help you work more efficiently with Azure resources. The Azure MCP Server supercharges your agents with Azure context across **30+ different Azure services**.
 
 ## Getting Started
 
@@ -94,6 +94,11 @@ Here are some cool prompts you can try across our supported Azure services:
 * "Show me all my Cosmos DB databases"
 * "List containers in my Cosmos DB database"
 
+### ⚙️ Azure Function App
+* "List my Azure Function Apps"
+* "Show me the functions in my Function App 'myapp'"
+* "Get the configuration of my Function App"
+
 ### 🗄️ Azure SQL Database
 * "Show me details about my Azure SQL database 'mydb'"
 * "List all databases in my Azure SQL server 'myserver'"
@@ -117,7 +122,7 @@ Here are some cool prompts you can try across our supported Azure services:
 
 ## Complete List of Supported Azure Services
 
-The Azure MCP Server provides tools for interacting with **28 Azure service areas**:
+The Azure MCP Server provides tools for interacting with **30+ Azure service areas**:
 
 - 🔎 **Azure AI Search** - Search engine/vector database operations
 - ⚙️ **Azure App Configuration** - Configuration management
@@ -126,9 +131,11 @@ The Azure MCP Server provides tools for interacting with **28 Azure service area
 - 📦 **Azure Container Registry (ACR)** - Container registry management
 - 📊 **Azure Cosmos DB** - NoSQL database operations
 - 🧮 **Azure Data Explorer** - Analytics queries and KQL
-- 🐘 **Azure Database for PostgreSQL** - PostgreSQL database management
+- � **Datadog** - Azure resource monitoring through Datadog integration
+- �🐘 **Azure Database for PostgreSQL** - PostgreSQL database management
 - 🛠️ **Azure Developer CLI (azd)** - Template and deployment management
 - 🧮 **Azure Foundry** - AI model management and deployment
+- ⚙️ **Azure Function App** - Serverless compute and function management
 - 🚀 **Azure Managed Grafana** - Monitoring dashboards
 - 🔑 **Azure Key Vault** - Secrets, keys, and certificates
 - ☸️ **Azure Kubernetes Service (AKS)** - Container orchestration
@@ -138,6 +145,7 @@ The Azure MCP Server provides tools for interacting with **28 Azure service area
 - ⚙️ **Azure Native ISV Services** - Third-party integrations
 - 🛡️ **Azure Quick Review CLI** - Compliance scanning
 - 🔴 **Azure Redis Cache** - In-memory data store
+- 🔍 **Azure Resource Health** - Resource health monitoring and diagnostics
 - 🏗️ **Azure Resource Groups** - Resource organization
 - 🎭 **Azure RBAC** - Access control management
 - 🚌 **Azure Service Bus** - Message queuing
